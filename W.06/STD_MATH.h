@@ -9,7 +9,7 @@ or
 0000 0100 1<<2
 
 */
-#define CLEAR_BIT(BYTE,bitNum) BYTE &= !(1<<bitNum)
+#define CLEAR_BIT(BYTE,bitNum) BYTE &= ~(1<<bitNum)
 /*
 clear bit:
 'one byte' 
